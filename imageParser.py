@@ -32,7 +32,7 @@ def directoryRecurse(directoryObject, parentPath):
             parentPath.pop(-1)
             print "Leaving Directory: %s" % filepath
       
-imagefile = "/home/jd/mobile/heather_image.dd"
+imagefile = "*.dd"
 imagehandle = pytsk3.Img_Info(imagefile)
 partitionTable = pytsk3.Volume_Info(imagehandle)
 dirPath = "/"
