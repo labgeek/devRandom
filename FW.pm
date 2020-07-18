@@ -5,6 +5,7 @@
 # Package:     HoneyClient::Manager::FW
 # File:        FW.pm
 # Description: A SOAP server that provides a way to remotely and dynamically configure iptables rules for all honeyclients.
+# Part of the HoneyClient::Manager package from MITRE ->  https://metacpan.org/pod/HoneyClient::Manager::FW
 #
 # @author(s) durick, kindlund
 #
